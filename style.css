@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  width: 1200px;
+  height: 850px;
+  background-color:rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 15px;
+  }
+
+header{
+  text-align: center;
+  color:#00dd00;
+  font-size: 30px;
+  font-weight: bold;
+  }
+
+.logo{
+  width: 250px;
+  margin-top: 100px;
+  }
+
+nav{
+  background-color: #00dd00;
+  width: 1000px;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  padding-top: 6px; /*per quello che ho imparato fino a qui, non conosco un modo più corretto
+  per centrare verticalmente. Immagino si debba usare il tag position...*/
+}
+
+button{
+  font-family: Arial, Helvetica, sans-serif; /*per qualche motivo il font dei bottoni
+  nell'immagine di riferimento, è diverso da quello del resto*/
+}
+
+main{
+  color: white;
+  padding-left: 100px;
+}
+
+.nomeMonopattino{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.statoCarica.Gino{
+  width: 350px;
+  background-color: #f5b453;
+}
+
+.statoCarica.Mike{
+  width: 600px;
+  background-color: #1ec31e;
+}
+
+.statoCarica.Fede{
+  width: 150px;
+  background-color: #be4141;
+}
+
+.statoCarica{
+  height: 30px;
+  border-radius: 5px;
+}
+
+main div{
+  padding-top: 20px;
+}
